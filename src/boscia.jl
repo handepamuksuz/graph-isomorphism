@@ -80,6 +80,7 @@ function boscia_run(
     use_k_particle_quantum = false,
     k_particle_k = 2,
     use_exp_formulation = false,
+    use_uni_exp_formulation = false,
 )
     n = size(A, 1)
 
@@ -172,10 +173,19 @@ function boscia_run(
     settings_pre.frank_wolfe[:fw_epsilon] = fw_epsilon
 
     if use_exp_formulation
+        @info "Using exponential formulation..."
         tau = choose_tau(A, B)
         tau = 0.1
         f, grad! = build_truncated_exp_function_gradient(A, B, n, tau, 4)
+    elseif use_uni_exp_formulation
+        @info "Using unitary exponential formulation..."
+        rho = max(opnorm(Matrix(1.0A), 2), opnorm(Matrix(1.0B), 2))
+        times = [0.5, 1.0, 2.0, 3.0] ./ rho
+
+        times = [10.0]
+        f, grad!, _ = build_unitary_exp_function_gradient(A, B, n, times)
     else
+        @info "Using direct formulation..."
         f, grad! = build_function_gradient(A, B, n)
     end
 
@@ -192,8 +202,8 @@ function boscia_run(
     end
 
     use_depth ?
-    settings.branch_and_bound[:traverse_strategy] = Boscia.BiasedDepthFirstSearch(favor_right) :
-    nothing
+    settings.branch_and_bound[:traverse_strategy] =
+        Boscia.BiasedDepthFirstSearch(favor_right) : nothing
 
     blmo, preprocessing_results = preprocessing(
         A,
