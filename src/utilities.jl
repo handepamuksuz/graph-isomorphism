@@ -70,7 +70,7 @@ function non_iso_graph(A::AbstractMatrix; edges_flipped::Int = 1)
     n = size(B, 1)
 
     # All possible undirected edges (i < j)
-    all_edges = [(i, j) for i = 1:n-1 for j = i+1:n]
+    all_edges = [(i, j) for i = 1:(n-1) for j = (i+1):n]
     max_edges = length(all_edges)
 
     # Clamp requested flips to [0, max_edges]
@@ -256,7 +256,7 @@ function build_post_propagate_bounds(
         row_closed = falses(n)
         col_closed = falses(n)
 
-        for idx in 1:(n^2)
+        for idx = 1:(n^2)
             if lb[idx] >= 1.0 - atol && ub[idx] >= 1.0 - atol
                 i, j = ij_from_idx(idx, n, append_by_column)
                 row_closed[i] = true
@@ -267,16 +267,16 @@ function build_post_propagate_bounds(
     end
 
     function full_bounds_feasible(lb, ub, n, append_by_column)
-        for idx in 1:(n^2)
+        for idx = 1:(n^2)
             if ub[idx] < lb[idx] - atol
                 return false
             end
         end
 
-        for i in 1:n
+        for i = 1:n
             row_lb = 0.0
             row_ub = 0.0
-            for j in 1:n
+            for j = 1:n
                 idx = idx_from_ij(i, j, n, append_by_column)
                 row_lb += lb[idx]
                 row_ub += ub[idx]
@@ -286,10 +286,10 @@ function build_post_propagate_bounds(
             end
         end
 
-        for j in 1:n
+        for j = 1:n
             col_lb = 0.0
             col_ub = 0.0
-            for i in 1:n
+            for i = 1:n
                 idx = idx_from_ij(i, j, n, append_by_column)
                 col_lb += lb[idx]
                 col_ub += ub[idx]
@@ -302,22 +302,14 @@ function build_post_propagate_bounds(
         return true
     end
 
-    function fix_to_one_and_propagate!(
-        node,
-        lb,
-        ub,
-        n,
-        i,
-        j,
-        append_by_column,
-    )
+    function fix_to_one_and_propagate!(node, lb, ub, n, i, j, append_by_column)
         idx = idx_from_ij(i, j, n, append_by_column)
 
         if ub[idx] <= atol
             return false
         end
 
-        for jj in 1:n
+        for jj = 1:n
             if jj == j
                 continue
             end
@@ -327,7 +319,7 @@ function build_post_propagate_bounds(
             end
         end
 
-        for ii in 1:n
+        for ii = 1:n
             if ii == i
                 continue
             end
@@ -342,7 +334,7 @@ function build_post_propagate_bounds(
         node.local_bounds.lower_bounds[idx] = 1.0
         node.local_bounds.upper_bounds[idx] = 1.0
 
-        for jj in 1:n
+        for jj = 1:n
             if jj == j
                 continue
             end
@@ -354,7 +346,7 @@ function build_post_propagate_bounds(
             node.local_bounds.upper_bounds[idx2] = 0.0
         end
 
-        for ii in 1:n
+        for ii = 1:n
             if ii == i
                 continue
             end
@@ -375,16 +367,15 @@ function build_post_propagate_bounds(
 
         while changed
             changed = false
-            row_closed, col_closed =
-                recompute_closed_rows_cols(lb, ub, n, append_by_column)
+            row_closed, col_closed = recompute_closed_rows_cols(lb, ub, n, append_by_column)
 
-            for i in 1:n
+            for i = 1:n
                 if row_closed[i]
                     continue
                 end
 
                 candidates = Int[]
-                for j in 1:n
+                for j = 1:n
                     if col_closed[j]
                         continue
                     end
@@ -401,7 +392,13 @@ function build_post_propagate_bounds(
                     idx = idx_from_ij(i, j, n, append_by_column)
                     if lb[idx] < 1.0 - atol
                         ok = fix_to_one_and_propagate!(
-                            node, lb, ub, n, i, j, append_by_column
+                            node,
+                            lb,
+                            ub,
+                            n,
+                            i,
+                            j,
+                            append_by_column,
                         )
                         if !ok
                             return false, num_fixed_to_one
@@ -412,16 +409,15 @@ function build_post_propagate_bounds(
                 end
             end
 
-            row_closed, col_closed =
-                recompute_closed_rows_cols(lb, ub, n, append_by_column)
+            row_closed, col_closed = recompute_closed_rows_cols(lb, ub, n, append_by_column)
 
-            for j in 1:n
+            for j = 1:n
                 if col_closed[j]
                     continue
                 end
 
                 candidates = Int[]
-                for i in 1:n
+                for i = 1:n
                     if row_closed[i]
                         continue
                     end
@@ -438,7 +434,13 @@ function build_post_propagate_bounds(
                     idx = idx_from_ij(i, j, n, append_by_column)
                     if lb[idx] < 1.0 - atol
                         ok = fix_to_one_and_propagate!(
-                            node, lb, ub, n, i, j, append_by_column
+                            node,
+                            lb,
+                            ub,
+                            n,
+                            i,
+                            j,
+                            append_by_column,
                         )
                         if !ok
                             return false, num_fixed_to_one
@@ -457,8 +459,8 @@ function build_post_propagate_bounds(
         G = append_by_column ? reshape(g, n, n) : transpose(reshape(g, n, n))
 
         row_closed, col_closed = recompute_closed_rows_cols(lb, ub, n, append_by_column)
-        open_rows = [i for i in 1:n if !row_closed[i]]
-        open_cols = [j for j in 1:n if !col_closed[j]]
+        open_rows = [i for i = 1:n if !row_closed[i]]
+        open_cols = [j for j = 1:n if !col_closed[j]]
 
         nr = length(open_rows)
         nc = length(open_cols)
@@ -480,13 +482,13 @@ function build_post_propagate_bounds(
             end
         end
 
-        for ii in 1:nr
-            if all(ismissing(d2[ii, jj]) for jj in 1:nc)
+        for ii = 1:nr
+            if all(ismissing(d2[ii, jj]) for jj = 1:nc)
                 return false, nothing, nothing, nothing
             end
         end
-        for jj in 1:nc
-            if all(ismissing(d2[ii, jj]) for ii in 1:nr)
+        for jj = 1:nc
+            if all(ismissing(d2[ii, jj]) for ii = 1:nr)
                 return false, nothing, nothing, nothing
             end
         end
@@ -500,7 +502,7 @@ function build_post_propagate_bounds(
         xmax = 0.0
         count_open = 0
 
-        for idx in 1:(n^2)
+        for idx = 1:(n^2)
             if ub[idx] > atol && lb[idx] < 1.0 - atol
                 count_open += 1
                 gval = g[idx]
@@ -581,8 +583,8 @@ function build_post_propagate_bounds(
         nc = length(open_cols)
         rc = fill(Inf, nr, nc)
 
-        for ii in 1:nr
-            for jj in 1:nc
+        for ii = 1:nr
+            for jj = 1:nc
                 if !ismissing(d2[ii, jj])
                     rc[ii, jj] = d2[ii, jj] - alpha[ii] - beta[jj]
                     if rc[ii, jj] < 0 && abs(rc[ii, jj]) <= 1e-8
@@ -595,9 +597,9 @@ function build_post_propagate_bounds(
         num_fixed_to_zero = 0
         num_fixed_to_one = 0
 
-        for ii in 1:nr
+        for ii = 1:nr
             i = open_rows[ii]
-            for jj in 1:nc
+            for jj = 1:nc
                 j = open_cols[jj]
 
                 if !isfinite(rc[ii, jj])
@@ -670,4 +672,11 @@ function Bonobo.get_branching_variable(
     end
 
     return best_idx
+end
+
+function laplacian_spectral_radius(A)
+    Af = Matrix(1.0A)
+    d = vec(sum(Af, dims = 2))
+    L = Matrix(Diagonal(d) - Af)
+    return opnorm(L, 2)
 end

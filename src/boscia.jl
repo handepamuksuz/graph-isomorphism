@@ -81,6 +81,7 @@ function boscia_run(
     k_particle_k = 2,
     use_exp_formulation = false,
     use_uni_exp_formulation = false,
+    use_heat_laplacian_formulation = false,
 )
     n = size(A, 1)
 
@@ -184,6 +185,20 @@ function boscia_run(
 
         times = [10.0]
         f, grad!, _ = build_unitary_exp_function_gradient(A, B, n, times)
+    elseif use_heat_laplacian_formulation
+        @info "Using heat laplacian formulation..."
+        rhoL = max(laplacian_spectral_radius(A), laplacian_spectral_radius(B))
+
+        s_values = [0.05, 0.1, 0.2, 0.5, 1.0, 1.5]
+
+        s_values = [0.05, 1.5]
+
+        times = s_values ./ rhoL
+
+
+        f, grad! =
+            build_heat_laplacian_function_gradient(A, B, n, times)
+
     else
         @info "Using direct formulation..."
         f, grad! = build_function_gradient(A, B, n)

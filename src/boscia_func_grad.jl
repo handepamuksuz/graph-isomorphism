@@ -283,3 +283,86 @@ function build_function_gradient_with_degree_diag(A, B, n; alpha=1.0)
 
     return f_acc2_degdiag, grad_acc2_degdiag!, f_acc2_degdiag_check
 end
+
+function build_heat_laplacian_function_gradient(A, B, n, times)
+    # Allow both scalar t and vector times
+    ts = times isa Number ? [times] : collect(times)
+
+    Af = Matrix(1.0A)
+    Bf = Matrix(1.0B)
+
+    # Degree matrices: row sums
+    dA = vec(sum(Af, dims=2))
+    dB = vec(sum(Bf, dims=2))
+
+    LA = Diagonal(dA) - Af
+    LB = Diagonal(dB) - Bf
+
+    # Heat kernels
+    HAs = [exp(-t * Matrix(LA)) for t in ts]
+    HBs = [exp(-t * Matrix(LB)) for t in ts]
+
+    R = zeros(n, n)
+    T1 = zeros(n, n)
+    T2 = zeros(n, n)
+
+    function f_heat_lap(x)
+        X = reshape(x, n, n)
+
+        val = 0.0
+
+        for k in eachindex(ts)
+            HA = HAs[k]
+            HB = HBs[k]
+
+            # R = X * HA - HB * X
+            mul!(R, X, HA)
+            mul!(R, HB, X, -1, 1)
+
+            val += sum(abs2, R)
+        end
+
+        return val
+    end
+
+    function grad_heat_lap!(storage, x)
+        X = reshape(x, n, n)
+        S = reshape(storage, n, n)
+
+        fill!(S, 0.0)
+
+        for k in eachindex(ts)
+            HA = HAs[k]
+            HB = HBs[k]
+
+            # R = X * HA - HB * X
+            mul!(R, X, HA)
+            mul!(R, HB, X, -1, 1)
+
+            # General gradient:
+            # ∇ = 2 * (R * HA' - HB' * R)
+            mul!(T1, R, HA')
+            mul!(T2, HB', R)
+
+            @. S += 2.0 * (T1 - T2)
+        end
+
+        return nothing
+    end
+
+    function f_heat_lap_check(x)
+        X = reshape(x, n, n)
+
+        val = 0.0
+
+        for k in eachindex(ts)
+            HA = HAs[k]
+            HB = HBs[k]
+            val += norm(X * HA - HB * X)^2
+        end
+
+        return val
+    end
+
+    return f_heat_lap, grad_heat_lap!, f_heat_lap_check
+end

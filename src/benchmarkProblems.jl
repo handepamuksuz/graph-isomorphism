@@ -140,6 +140,8 @@ function bench(
 
         use_uni_exp_formulation = "uni-exp" in solver_parts
 
+        use_heat_laplacian_formulation = "heat" in solver_parts
+
         iso_generate ? println("Iso problem...") : println("Non-iso problem...")
         status, solving_time, fixing_res, result = boscia_run(
             A1,
@@ -159,6 +161,7 @@ function bench(
             use_k_particle_quantum = use_k_particle_quantum,
             use_exp_formulation = use_exp_formulation,
             use_uni_exp_formulation = use_uni_exp_formulation,
+            use_heat_laplacian_formulation = use_heat_laplacian_formulation,
         )
         if status == "OPTIMAL"
             issolved = true
