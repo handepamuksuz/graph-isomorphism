@@ -74,6 +74,7 @@ function boscia_run(
     use_OBBT = false,
     use_clique = false,
     use_star = false,
+    use_wl = false, 
     use_walk_sig = false,
     use_classical_exp_walk = false,
     use_quantum = false,
@@ -225,6 +226,7 @@ function boscia_run(
         B,
         n;
         use_clique = use_clique,
+        use_wl = use_wl, 
         use_star = use_star,
         use_OBBT = use_OBBT,
         use_walk_sig = use_walk_sig,
@@ -239,6 +241,7 @@ function boscia_run(
 
     preprocessing_time_elapsed =
         preprocessing_results.times.clique +
+        preprocessing_results.times.wl +   
         preprocessing_results.times.star +
         preprocessing_results.times.obbt +
         preprocessing_results.times.walk_sig +

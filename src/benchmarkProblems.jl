@@ -112,6 +112,8 @@ function bench(
 
         use_clique = "clique" in solver_parts
 
+        use_wl = "wl" in solver_parts
+
         use_OBBT = "OBBT" in solver_parts
 
         use_walk_sig = ("walk" in solver_parts) || ("walksig" in solver_parts)
@@ -162,6 +164,7 @@ function bench(
             use_exp_formulation = use_exp_formulation,
             use_uni_exp_formulation = use_uni_exp_formulation,
             use_heat_laplacian_formulation = use_heat_laplacian_formulation,
+            use_wl = use_wl,
         )
         if status == "OPTIMAL"
             issolved = true

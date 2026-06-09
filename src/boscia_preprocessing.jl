@@ -1,3 +1,5 @@
+include("color_refinement.jl")
+
 function OBBT_preprocess(A, B, n, blmo)
     int_vars = collect(1:(n^2))
 
@@ -660,6 +662,7 @@ function preprocessing(
     B,
     n;
     use_clique = false,
+    use_wl = false,
     use_star = false,
     use_OBBT = false,
     use_walk_sig = false,
@@ -677,6 +680,7 @@ function preprocessing(
         clique = 0.0,
         star = 0.0,
         obbt = 0.0,
+        wl = 0.0,
         walk_sig = 0.0,
         classical_exp = 0.0,
         quantum = 0.0,
@@ -686,6 +690,7 @@ function preprocessing(
     checked_total = 0
     fixed_to_zero = (
         clique = 0,
+        wl = 0,
         star = 0,
         obbt = 0,
         walk_sig = 0,
@@ -730,6 +735,49 @@ function preprocessing(
             k_particle = times.k_particle,
         )
         @info "Clique-warm-start took $(t) seconds"
+    end
+
+    if use_wl && !early_stop
+        @info "Activating 1-WL color refinement preprocess..."
+        t = @elapsed begin
+            wl_fixed = wl_fix_variables(A, B)
+            nfix0 = 0
+            for i in 1:n, j in 1:n
+                linear_idx = (i - 1) * n + j
+                if wl_fixed[i, j] && blmo.upper_bounds[linear_idx] != 0.0
+                    blmo.upper_bounds[linear_idx] = 0.0
+                    nfix0 += 1
+                end
+            end
+            fixed_to_zero = (;
+                clique = fixed_to_zero.clique,
+                wl = nfix0,
+                star = fixed_to_zero.star,
+                obbt = fixed_to_zero.obbt,
+                walk_sig = fixed_to_zero.walk_sig,
+                classical_exp = fixed_to_zero.classical_exp,
+                quantum = fixed_to_zero.quantum,
+                k_particle = fixed_to_zero.k_particle,
+            )
+            is_feasible = Boscia.check_feasibility(blmo) == Boscia.OPTIMAL
+            if _iso_benchmark_conflict_or_early_stop(
+                iso_generate, is_graph_matching, is_feasible, :wl,
+            )
+                early_stop = true
+                early_reason = :wl
+            end
+        end
+        times = (;
+                    clique = times.clique,
+            wl = t,
+            star = times.star,
+            obbt = times.obbt,
+            walk_sig = times.walk_sig,
+            classical_exp = times.classical_exp,
+            quantum = times.quantum,
+            k_particle = times.k_particle,
+        )
+        @info "1-WL preprocess took $(t) seconds; $(nfix0) variables fixed to zero"
     end
 
     if use_star && !early_stop
