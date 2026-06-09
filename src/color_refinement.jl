@@ -1,27 +1,22 @@
-# src/color_refinement.jl
-# 1-Weisfeiler-Lehman (1-WL) color refinement preprocessing for Graph Isomorphism.
-# Fixes X[i,j] = 0 whenever vertex i in G1 and vertex j in G2 have different stable colors.
-
-"""
-    color_refinement(adj::Matrix) -> Vector
-
-Run 1-WL color refinement on a graph given by adjacency matrix `adj`.
-Returns a vector of stable color labels (one per vertex).
-Colors are initialized by degree, then refined until stable.
-"""
 function color_refinement(adj::Matrix)
     n = size(adj, 1)
     # Initialize: color each vertex by its degree
-    colors = vec(sum(adj, dims=2))
+    colors = Int[round(Int, sum(adj[v, :])) for v in 1:n]
 
-    while true
-        new_colors = Vector{UInt64}(undef, n)
+    for _ in 1:n
+        # Build new color signatures
+        signatures = Vector{Tuple}(undef, n)
         for v in 1:n
             neighbors = findall(adj[v, :] .> 0)
             neighbor_colors = sort(colors[neighbors])
-            # Hash current color + sorted neighbor multiset for stability
-            new_colors[v] = hash((colors[v], neighbor_colors))
+            signatures[v] = (colors[v], neighbor_colors)
         end
+
+        # Map signatures to integer labels (same signature = same label)
+        unique_sigs = unique(signatures)
+        sig_to_label = Dict(sig => i for (i, sig) in enumerate(unique_sigs))
+        new_colors = Int[sig_to_label[signatures[v]] for v in 1:n]
+
         if new_colors == colors
             break
         end
@@ -30,13 +25,6 @@ function color_refinement(adj::Matrix)
     return colors
 end
 
-"""
-    wl_fix_variables(A::Matrix, B::Matrix) -> Matrix{Bool}
-
-Given adjacency matrices A (for G1) and B (for G2), run 1-WL on both graphs
-and return a Boolean matrix `fixed` where fixed[i,j] = true means
-X[i,j] must be 0 (vertex i in G1 cannot map to vertex j in G2).
-"""
 function wl_fix_variables(A::Matrix, B::Matrix)
     colors_A = color_refinement(A)
     colors_B = color_refinement(B)
