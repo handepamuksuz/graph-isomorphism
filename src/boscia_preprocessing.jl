@@ -663,6 +663,7 @@ function preprocessing(
     n;
     use_clique = false,
     use_wl = false,
+    wl_version = 1, 
     use_star = false,
     use_OBBT = false,
     use_walk_sig = false,
@@ -678,9 +679,9 @@ function preprocessing(
 
     times = (
         clique = 0.0,
+        wl = 0.0,
         star = 0.0,
         obbt = 0.0,
-        wl = 0.0,
         walk_sig = 0.0,
         classical_exp = 0.0,
         quantum = 0.0,
@@ -708,6 +709,7 @@ function preprocessing(
             is_feasible, blmo, nfix0 = clique_preprocess(A, B, n, blmo)
             fixed_to_zero = (;
                 clique = nfix0,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -727,6 +729,7 @@ function preprocessing(
         end
         times = (;
             clique = t,
+            wl = times.wl,
             star = times.star,
             obbt = times.obbt,
             walk_sig = times.walk_sig,
@@ -738,9 +741,14 @@ function preprocessing(
     end
 
     if use_wl && !early_stop
-        @info "Activating 1-WL color refinement preprocess..."
+        @info "Activating $(wl_version)-WL color refinement preprocess..."
         t = @elapsed begin
-            wl_fixed = wl_fix_variables(A, B)
+            if wl_version == 2
+                wl_fixed = wl2_fix_variables(A, B)
+            else
+                wl_fixed = wl_fix_variables(A, B)
+            
+            end
             nfix0 = 0
             for i in 1:n, j in 1:n
                 linear_idx = (i - 1) * n + j
@@ -768,7 +776,7 @@ function preprocessing(
             end
         end
         times = (;
-                    clique = times.clique,
+            clique = times.clique,
             wl = t,
             star = times.star,
             obbt = times.obbt,
@@ -777,7 +785,7 @@ function preprocessing(
             quantum = times.quantum,
             k_particle = times.k_particle,
         )
-        @info "1-WL preprocess took $(t) seconds; $(nfix0) variables fixed to zero"
+        @info "$(wl_version)-WL preprocess took $(t) seconds; $(nfix0) variables fixed to zero"
     end
 
     if use_star && !early_stop
@@ -786,6 +794,7 @@ function preprocessing(
             is_feasible, blmo, nfix0 = star_preprocess(A, B, n, blmo)
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = nfix0,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -805,6 +814,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = t,
             obbt = times.obbt,
             walk_sig = times.walk_sig,
@@ -824,6 +834,7 @@ function preprocessing(
             checked_total = nchecked
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = nfix0,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -843,6 +854,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = times.star,
             obbt = t,
             walk_sig = times.walk_sig,
@@ -862,6 +874,7 @@ function preprocessing(
             checked_total += nchecked
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = nfix0,
@@ -881,6 +894,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = times.star,
             obbt = times.obbt,
             walk_sig = t,
@@ -898,6 +912,7 @@ function preprocessing(
             is_feasible, blmo, nfix0 = classical_exp_walk_preprocess(A, B, n, blmo)
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -912,6 +927,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = times.star,
             obbt = times.obbt,
             walk_sig = times.walk_sig,
@@ -929,6 +945,7 @@ function preprocessing(
             is_feasible, blmo, nfix0 = quantum_walk_preprocess(A, B, n, blmo)
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -948,6 +965,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = times.star,
             obbt = times.obbt,
             walk_sig = times.walk_sig,
@@ -971,6 +989,7 @@ function preprocessing(
             )
             fixed_to_zero = (;
                 clique = fixed_to_zero.clique,
+                wl = fixed_to_zero.wl,
                 star = fixed_to_zero.star,
                 obbt = fixed_to_zero.obbt,
                 walk_sig = fixed_to_zero.walk_sig,
@@ -990,6 +1009,7 @@ function preprocessing(
         end
         times = (;
             clique = times.clique,
+            wl = times.wl,
             star = times.star,
             obbt = times.obbt,
             walk_sig = times.walk_sig,

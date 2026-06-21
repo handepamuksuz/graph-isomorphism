@@ -1,0 +1,17 @@
+instance,solver_name,solver,seed,status,total_time,fixed_to_zero,n,iso_generate,early_stop,early_reason
+cfi-20,2WL_1h,boscia_wl2,1,User defined stop,3284.471523,39440,200,true,false,
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.3710575,39600,0,false,true,wl
+cfi-20,2WL_noniso,boscia_wl2,1,Unknown,27.9267953,40000,0,false,true,wl
+cfi-22,2WL_1h,boscia_wl2,1,User defined stop,982.4466454,47784,220,true,false,
+cfi-22,1WL_noniso,boscia_wl,1,Unknown,0.0125372,47960,0,false,true,wl
+cfi-22,2WL_noniso,boscia_wl2,1,Unknown,32.2485971,48400,0,false,true,wl
+cfi-40,2WL_1h,boscia_wl2,1,Time limit reached,10807.7700856,158880,400,true,false,
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0318706,159200,0,false,true,wl
+cfi-40,2WL_noniso,boscia_wl2,1,Unknown,314.9249255,160000,0,false,true,wl
+CHH_cc_1_1_22_1,2WL_10min,boscia_wl2,1,User defined stop,5.437227,294,22,true,false,
+CHH_cc_2_1_44_1,2WL_10min,boscia_wl2,1,User defined stop,66.0678954,1556,44,true,false,
+CHH_cc_2_2_88_1,2WL_10min,boscia_wl2,1,Time limit reached,1800.2594976,6224,88,true,false,
+exact_092,1WL_10min,boscia_wl,1,User defined stop,38.375716499999996,228002,478,true,false,
+paley_power_169,2WL_10min,boscia_wl2,1,Time limit reached,604.9597281,0,169,true,false,
+paley_power_289,2WL_10min,boscia_wl2,1,Time limit reached,618.7444711,0,289,true,false,
+paley_power_361,2WL_10min,boscia_wl2,1,Time limit reached,647.896758,0,361,true,false,

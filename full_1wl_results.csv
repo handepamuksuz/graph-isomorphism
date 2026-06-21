@@ -1,0 +1,863 @@
+instance,solver_name,solver,seed,status,total_time,fixed_to_zero,n,iso_generate,early_stop,early_reason
+cfi-20,NoWL,boscia,1,Time limit reached,301.553,0,200,true,false,
+cfi-20,1WL,boscia_wl,1,Time limit reached,301.32541030000004,0,200,true,false,
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0616027,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0363899,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0360682,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.045844,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0548603,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0415569,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0583781,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.1086315,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0782653,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0641617,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0602389,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0794344,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0999189,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.085119,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0813422,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0842035,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0848591,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0757964,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0734134,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0686946,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.1178519,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.1176924,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.1168821,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0987889,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0948914,39600,0,false,true,wl
+cfi-20,1WL_noniso,boscia_wl,1,Unknown,0.0946636,39600,0,false,true,wl
+cfi-22,NoWL,boscia,1,Time limit reached,301.087,0,220,true,false,
+cfi-22,1WL,boscia_wl,1,Time limit reached,300.7604927,0,220,true,false,
+cfi-40,NoWL,boscia,1,Time limit reached,307.976,0,400,true,false,
+cfi-40,1WL,boscia_wl,1,Time limit reached,308.0352009,0,400,true,false,
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0382498,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0275482,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0336713,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0432874,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0337915,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.068818,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0347518,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0520287,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0307108,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0550966,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0306939,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0305434,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0315427,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0324571,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0368653,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0278564,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0362403,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.042163,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0390117,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0425517,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0458607,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0383453,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0328683,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0295306,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.027718,159200,0,false,true,wl
+cfi-40,1WL_noniso,boscia_wl,1,Unknown,0.0259797,159200,0,false,true,wl
+cfi-50,NoWL,boscia,1,Time limit reached,315.1,0,500,true,false,
+cfi-50,1WL,boscia_wl,1,Time limit reached,315.3128246,0,500,true,false,
+cospectral_1,NoWL,boscia,1,User defined stop,108.921,0,29,true,false,
+cospectral_1,1WL,boscia_wl,1,User defined stop,98.58520180000001,0,29,true,false,
+cospectral_10,NoWL,boscia,1,Time limit reached,300.028,0,29,true,false,
+cospectral_10,1WL,boscia_wl,1,Time limit reached,300.01852840000004,0,29,true,false,
+cospectral_11,NoWL,boscia,1,Time limit reached,300.016,0,29,true,false,
+cospectral_11,1WL,boscia_wl,1,Time limit reached,300.014788,0,29,true,false,
+cospectral_12,NoWL,boscia,1,User defined stop,83.535,0,29,true,false,
+cospectral_12,1WL,boscia_wl,1,User defined stop,83.8808488,0,29,true,false,
+cospectral_13,NoWL,boscia,1,Time limit reached,300.013,0,29,true,false,
+cospectral_13,1WL,boscia_wl,1,Time limit reached,300.0181067,0,29,true,false,
+cospectral_14,NoWL,boscia,1,User defined stop,227.902,0,29,true,false,
+cospectral_14,1WL,boscia_wl,1,User defined stop,227.55899829999998,0,29,true,false,
+cospectral_15,NoWL,boscia,1,Time limit reached,300.001,0,29,true,false,
+cospectral_15,1WL,boscia_wl,1,Time limit reached,300.0714121,0,29,true,false,
+cospectral_16,NoWL,boscia,1,User defined stop,140.374,0,29,true,false,
+cospectral_16,1WL,boscia_wl,1,User defined stop,138.590187,0,29,true,false,
+cospectral_17,NoWL,boscia,1,Time limit reached,300.019,0,29,true,false,
+cospectral_17,1WL,boscia_wl,1,Time limit reached,300.02525360000004,0,29,true,false,
+cospectral_18,NoWL,boscia,1,User defined stop,23.041,0,29,true,false,
+cospectral_18,1WL,boscia_wl,1,User defined stop,22.889493,0,29,true,false,
+cospectral_19,NoWL,boscia,1,Time limit reached,300.01,0,29,true,false,
+cospectral_19,1WL,boscia_wl,1,Time limit reached,300.03137089999996,0,29,true,false,
+cospectral_2,NoWL,boscia,1,Time limit reached,300.015,0,29,true,false,
+cospectral_2,1WL,boscia_wl,1,Time limit reached,300.00965049999996,0,29,true,false,
+cospectral_20,NoWL,boscia,1,User defined stop,99.812,0,29,true,false,
+cospectral_20,1WL,boscia_wl,1,User defined stop,93.07772899999999,0,29,true,false,
+cospectral_21,NoWL,boscia,1,Time limit reached,300.007,0,29,true,false,
+cospectral_21,1WL,boscia_wl,1,Time limit reached,300.0064206,0,29,true,false,
+cospectral_22,NoWL,boscia,1,User defined stop,78.167,0,29,true,false,
+cospectral_22,1WL,boscia_wl,1,User defined stop,78.3122594,0,29,true,false,
+cospectral_23,NoWL,boscia,1,User defined stop,273.953,0,29,true,false,
+cospectral_23,1WL,boscia_wl,1,User defined stop,284.6078812,0,29,true,false,
+cospectral_24,NoWL,boscia,1,Time limit reached,300.001,0,29,true,false,
+cospectral_24,1WL,boscia_wl,1,Time limit reached,300.01828889999996,0,29,true,false,
+cospectral_25,NoWL,boscia,1,User defined stop,8.315,0,29,true,false,
+cospectral_25,1WL,boscia_wl,1,User defined stop,8.2761054,0,29,true,false,
+cospectral_26,NoWL,boscia,1,Time limit reached,300.003,0,29,true,false,
+cospectral_26,1WL,boscia_wl,1,Time limit reached,300.00642619999996,0,29,true,false,
+cospectral_27,NoWL,boscia,1,Time limit reached,300.025,0,29,true,false,
+cospectral_27,1WL,boscia_wl,1,Time limit reached,300.01166229999995,0,29,true,false,
+cospectral_28,NoWL,boscia,1,Time limit reached,300.003,0,29,true,false,
+cospectral_28,1WL,boscia_wl,1,Time limit reached,300.0244359,0,29,true,false,
+cospectral_29,NoWL,boscia,1,Time limit reached,300.007,0,29,true,false,
+cospectral_29,1WL,boscia_wl,1,Time limit reached,300.0134735,0,29,true,false,
+cospectral_3,NoWL,boscia,1,Time limit reached,300.015,0,29,true,false,
+cospectral_3,1WL,boscia_wl,1,Time limit reached,300.03232879999996,0,29,true,false,
+cospectral_30,NoWL,boscia,1,User defined stop,229.282,0,29,true,false,
+cospectral_30,1WL,boscia_wl,1,User defined stop,229.6382616,0,29,true,false,
+cospectral_31,NoWL,boscia,1,Time limit reached,300.021,0,29,true,false,
+cospectral_31,1WL,boscia_wl,1,Time limit reached,300.0042492,0,29,true,false,
+cospectral_32,NoWL,boscia,1,Time limit reached,300.023,0,29,true,false,
+cospectral_32,1WL,boscia_wl,1,Time limit reached,300.0254178,0,29,true,false,
+cospectral_33,NoWL,boscia,1,Time limit reached,300.02,0,29,true,false,
+cospectral_33,1WL,boscia_wl,1,Time limit reached,300.0275954,0,29,true,false,
+cospectral_34,NoWL,boscia,1,Time limit reached,300.005,0,29,true,false,
+cospectral_34,1WL,boscia_wl,1,Time limit reached,300.0291788,0,29,true,false,
+cospectral_35,NoWL,boscia,1,Time limit reached,300.0,0,29,true,false,
+cospectral_35,1WL,boscia_wl,1,Time limit reached,300.01676249999997,0,29,true,false,
+cospectral_36,NoWL,boscia,1,User defined stop,93.503,0,29,true,false,
+cospectral_36,1WL,boscia_wl,1,User defined stop,92.3703374,0,29,true,false,
+cospectral_37,NoWL,boscia,1,Time limit reached,300.013,0,29,true,false,
+cospectral_37,1WL,boscia_wl,1,Time limit reached,300.0203418,0,29,true,false,
+cospectral_38,NoWL,boscia,1,Time limit reached,300.028,0,29,true,false,
+cospectral_38,1WL,boscia_wl,1,Time limit reached,300.0203116,0,29,true,false,
+cospectral_39,NoWL,boscia,1,Time limit reached,300.02,0,29,true,false,
+cospectral_39,1WL,boscia_wl,1,Time limit reached,300.0176785,0,29,true,false,
+cospectral_4,NoWL,boscia,1,Time limit reached,300.029,0,29,true,false,
+cospectral_4,1WL,boscia_wl,1,Time limit reached,300.0069073,0,29,true,false,
+cospectral_40,NoWL,boscia,1,User defined stop,8.223,0,29,true,false,
+cospectral_40,1WL,boscia_wl,1,User defined stop,8.2464827,0,29,true,false,
+cospectral_41,NoWL,boscia,1,Time limit reached,300.002,0,29,true,false,
+cospectral_41,1WL,boscia_wl,1,Time limit reached,300.00226910000003,0,29,true,false,
+cospectral_5,NoWL,boscia,1,Time limit reached,300.023,0,29,true,false,
+cospectral_5,1WL,boscia_wl,1,Time limit reached,300.0133663,0,29,true,false,
+cospectral_6,NoWL,boscia,1,Time limit reached,300.013,0,29,true,false,
+cospectral_6,1WL,boscia_wl,1,Time limit reached,300.02341270000005,0,29,true,false,
+cospectral_7,NoWL,boscia,1,Time limit reached,300.004,0,29,true,false,
+cospectral_7,1WL,boscia_wl,1,Time limit reached,300.0260026,0,29,true,false,
+cospectral_8,NoWL,boscia,1,Time limit reached,300.027,0,29,true,false,
+cospectral_8,1WL,boscia_wl,1,Time limit reached,300.0122133,0,29,true,false,
+cospectral_9,NoWL,boscia,1,Time limit reached,300.027,0,29,true,false,
+cospectral_9,1WL,boscia_wl,1,Time limit reached,300.02230169999996,0,29,true,false,
+exact_001,NoWL,boscia,1,User defined stop,1.41,0,19,true,false,
+exact_001,1WL,boscia_wl,1,User defined stop,0.0367595,324,19,true,false,
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0009919,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0002445,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0002586,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001737,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001707,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0004772,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0002031,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0004697,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0003105,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0004241,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001867,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001977,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.000244,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0004179,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0008168,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001767,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.00017,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001798,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0003541,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0004072,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.000172,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001761,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0001667,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0005593,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0002975,342,0,false,true,wl
+exact_001,1WL_noniso,boscia_wl,1,Unknown,0.0002272,342,0,false,true,wl
+exact_024,NoWL,boscia,1,User defined stop,3.559,0,40,true,false,
+exact_024,1WL,boscia_wl,1,User defined stop,0.012811,1550,40,true,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_024,1WL_noniso,boscia_wl,1,Error,NaN,NaN,0,false,false,
+exact_051,NoWL,boscia,1,User defined stop,15.332,0,62,true,false,
+exact_051,1WL,boscia_wl,1,User defined stop,0.0647642,3724,62,true,false,
+exact_061,NoWL,boscia,1,User defined stop,14.986,0,80,true,false,
+exact_061,1WL,boscia_wl,1,User defined stop,0.0433567,6286,80,true,false,
+exact_074,NoWL,boscia,1,Error,NaN,NaN,0,true,false,
+exact_074,1WL,boscia_wl,1,User defined stop,1.0453487,19740,141,true,false,
+exact_089,NoWL,boscia,1,Time limit reached,305.697,0,200,true,false,
+exact_089,1WL,boscia_wl,1,User defined stop,3.1112931,39800,200,true,false,
+exact_092,NoWL,boscia,1,Time limit reached,328.67,0,478,true,false,
+exact_092,1WL,boscia_wl,1,User defined stop,37.465351899999995,228002,478,true,false,
+CHH_cc_1_1_22_1,NoWL,boscia,1,User defined stop,9.098,0,22,true,false,
+CHH_cc_1_1_22_1,1WL,boscia_wl,1,User defined stop,3.7864796999999997,0,22,true,false,
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0007618,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002095,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002069,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0005228,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0004579,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0004488,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0004108,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002157,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002013,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002004,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.000225,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0004317,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001719,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.000162,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0002388,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0005142,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001793,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0006136,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0004362,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0003554,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001974,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001696,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001847,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001682,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0003599,462,0,false,true,wl
+CHH_cc_1_1_22_1,1WL_noniso,boscia_wl,1,Unknown,0.0001754,462,0,false,true,wl
+CHH_cc_2_1_44_1,NoWL,boscia,1,User defined stop,68.567,0,44,true,false,
+CHH_cc_2_1_44_1,1WL,boscia_wl,1,User defined stop,135.131507,1176,44,true,false,
+CHH_cc_2_2_88_1,NoWL,boscia,1,Time limit reached,300.081,0,88,true,false,
+CHH_cc_2_2_88_1,1WL,boscia_wl,1,Time limit reached,300.06839,4704,88,true,false,
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0024201,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0011351,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0010907,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.001106,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0018861,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0025586,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0012923,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0020907,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.002268,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0017199,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.001377,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0011918,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0021125,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0018972,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0015907,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0015369,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0022912,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0023314,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0011556,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0018928,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0015199,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0013168,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0016094,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0012953,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0011415,6480,0,false,true,wl
+CHH_cc_2_2_88_1,1WL_noniso,boscia_wl,1,Unknown,0.0011535,6480,0,false,true,wl
+CHH_cc_3_2_132_1,NoWL,boscia,1,Time limit reached,300.229,0,132,true,false,
+CHH_cc_3_2_132_1,1WL,boscia_wl,1,Time limit reached,300.1285979,10584,132,true,false,
+CHH_cc_3_3_198_1,NoWL,boscia,1,Time limit reached,300.612,0,198,true,false,
+CHH_cc_3_3_198_1,1WL,boscia_wl,1,Time limit reached,300.3276239,23814,198,true,false,
+CHH_cc_4_3_264_1,NoWL,boscia,1,Time limit reached,301.324,0,264,true,false,
+CHH_cc_4_3_264_1,1WL,boscia_wl,1,Time limit reached,301.0550158,42336,264,true,false,
+CHH_cc_4_4_352_1,NoWL,boscia,1,Time limit reached,304.919,0,352,true,false,
+CHH_cc_4_4_352_1,1WL,boscia_wl,1,Time limit reached,303.5279908,75264,352,true,false,
+CHH_cc_5_4_440_1,NoWL,boscia,1,Time limit reached,308.96,0,440,true,false,
+CHH_cc_5_4_440_1,1WL,boscia_wl,1,Time limit reached,305.43049490000004,117600,440,true,false,
+Lattice_11_121,NoWL,boscia,1,Time limit reached,300.638,0,121,true,false,
+Lattice_11_121,1WL,boscia_wl,1,Time limit reached,300.6553554,0,121,true,false,
+Lattice_15_225,NoWL,boscia,1,Time limit reached,305.891,0,225,true,false,
+Lattice_15_225,1WL,boscia_wl,1,Time limit reached,306.4303492,0,225,true,false,
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0433712,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0447616,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0424478,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0156995,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0277528,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0160828,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0300798,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0140645,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.010801,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0112009,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0101006,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0138208,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0110411,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0327298,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0111319,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0108125,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0125945,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0115679,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.010881,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0120491,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0120085,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0120023,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0117104,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0118113,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0112009,12600,0,false,true,wl
+Lattice_15_225,1WL_noniso,boscia_wl,1,Unknown,0.0095745,12600,0,false,true,wl
+Lattice_20_400,NoWL,boscia,1,Time limit reached,322.736,0,400,true,false,
+Lattice_20_400,1WL,boscia_wl,1,Time limit reached,322.1978589,0,400,true,false,
+Lattice_4_16,NoWL,boscia,1,User defined stop,2.866,0,16,true,false,
+Lattice_4_16,1WL,boscia_wl,1,User defined stop,2.7291961000000002,0,16,true,false,
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0006532,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001111,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0002792,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001012,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,9.87e-5,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001109,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0002713,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0004572,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,9.95e-5,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001005,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001386,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0003795,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0002188,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0003989,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.000144,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0002386,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001349,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001448,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001369,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001469,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0003129,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0005192,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0002559,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001897,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001527,192,0,false,true,wl
+Lattice_4_16,1WL_noniso,boscia_wl,1,Unknown,0.0001629,192,0,false,true,wl
+Lattice_6_36,NoWL,boscia,1,Time limit reached,300.013,0,36,true,false,
+Lattice_6_36,1WL,boscia_wl,1,Time limit reached,300.0092335,0,36,true,false,
+Lattice_8_64,NoWL,boscia,1,Time limit reached,300.111,0,64,true,false,
+Lattice_8_64,1WL,boscia_wl,1,Time limit reached,300.07558,0,64,true,false,
+Lattice_9_81,NoWL,boscia,1,Time limit reached,300.237,0,81,true,false,
+Lattice_9_81,1WL,boscia_wl,1,Time limit reached,300.1608086,0,81,true,false,
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0018478,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.001922,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0038879,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0032164,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0027724,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0031372,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0026236,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0050916,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0034641,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0012664,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0016325,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0016355,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0013126,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.001334,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0018884,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.001599,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0022509,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0029115,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0023323,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0018418,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0019104,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0013493,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0011766,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0011779,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0011923,2592,0,false,true,wl
+Lattice_9_81,1WL_noniso,boscia_wl,1,Unknown,0.0011724,2592,0,false,true,wl
+Triangular_10_45,NoWL,boscia,1,Time limit reached,300.025,0,45,true,false,
+Triangular_10_45,1WL,boscia_wl,1,Time limit reached,300.0395761,0,45,true,false,
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0007439,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005855,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0009844,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0007232,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0009989,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005134,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0008915,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0007955,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005309,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005846,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0007663,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0006001,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0006322,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0015895,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0004763,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0008323,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005431,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005881,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0008412,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.001939,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005283,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0008747,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0005197,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0008387,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.0004875,1350,0,false,true,wl
+Triangular_10_45,1WL_noniso,boscia_wl,1,Unknown,0.000492,1350,0,false,true,wl
+Triangular_12_66,NoWL,boscia,1,Time limit reached,300.048,0,66,true,false,
+Triangular_12_66,1WL,boscia_wl,1,Time limit reached,300.10210539999997,0,66,true,false,
+Triangular_14_91,NoWL,boscia,1,Time limit reached,300.296,0,91,true,false,
+Triangular_14_91,1WL,boscia_wl,1,Time limit reached,300.28514559999996,0,91,true,false,
+Triangular_16_120,NoWL,boscia,1,Time limit reached,300.763,0,120,true,false,
+Triangular_16_120,1WL,boscia_wl,1,Time limit reached,300.8687297,0,120,true,false,
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0087943,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0182061,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.017294,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0138553,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0176454,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0183731,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0138975,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0110319,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0063086,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0053918,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0077422,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0052802,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.004262,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0040669,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0039117,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0039071,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0052123,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0053887,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0253517,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0071762,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0047574,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0038488,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0043429,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0040687,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0060426,14160,0,false,true,wl
+Triangular_16_120,1WL_noniso,boscia_wl,1,Unknown,0.0042316,14160,0,false,true,wl
+Triangular_21_210,NoWL,boscia,1,Time limit reached,304.894,0,210,true,false,
+Triangular_21_210,1WL,boscia_wl,1,Time limit reached,305.06190319999996,0,210,true,false,
+Triangular_29_406,NoWL,boscia,1,Time limit reached,325.757,0,406,true,false,
+Triangular_29_406,1WL,boscia_wl,1,Time limit reached,325.8268021,0,406,true,false,
+Triangular_7_21,NoWL,boscia,1,User defined stop,6.882,0,21,true,false,
+Triangular_7_21,1WL,boscia_wl,1,User defined stop,6.1373086,0,21,true,false,
+iso_r01N_m200,NoWL,boscia,1,Time limit reached,305.209,0,200,true,false,
+iso_r01N_m200,1WL,boscia_wl,1,User defined stop,2.153426,39800,200,true,false,
+iso_r01N_m400,NoWL,boscia,1,Time limit reached,327.854,0,400,true,false,
+iso_r01N_m400,1WL,boscia_wl,1,User defined stop,22.221694600000003,159600,400,true,false,
+iso_r01N_s100,NoWL,boscia,1,User defined stop,104.528,0,100,true,false,
+iso_r01N_s100,1WL,boscia_wl,1,User defined stop,0.2451147,9900,100,true,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.24596569999999998,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2632049,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2519593,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2830899,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.249166,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2632269,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.24929189999999998,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2719245,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2434554,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2429732,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2262539,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.27916650000000004,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2271787,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2405047,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2267765,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.23866949999999998,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2582852,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.23594980000000002,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2368131,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2524991,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2406352,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2429323,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2261733,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.2468984,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.24367770000000002,9900,100,false,false,
+iso_r01N_s100,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.244945,9900,100,false,false,
+iso_r01N_s20,NoWL,boscia,1,User defined stop,0.621,0,20,true,false,
+iso_r01N_s20,1WL,boscia_wl,1,User defined stop,0.0187036,380,20,true,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0171274,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0010874,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0019168,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0067556000000000005,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.009480299999999999,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0008259,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.010224500000000001,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0069342,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0054998,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0010861,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0207758,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0116643,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0064772,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0067405,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.018629,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0135129,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.000236,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0006523,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0163391,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0188107,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0168323,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0122121,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0095876,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0167243,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0165834,380,20,false,false,
+iso_r01N_s20,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.0170845,380,20,false,false,
+iso_r01N_s40,NoWL,boscia,1,User defined stop,6.62,0,40,true,false,
+iso_r01N_s40,1WL,boscia_wl,1,User defined stop,0.0267831,1560,40,true,false,
+iso_r01N_s60,NoWL,boscia,1,User defined stop,22.147,0,60,true,false,
+iso_r01N_s60,1WL,boscia_wl,1,User defined stop,0.0515184,3540,60,true,false,
+iso_r01N_s80,NoWL,boscia,1,User defined stop,54.235,0,80,true,false,
+iso_r01N_s80,1WL,boscia_wl,1,User defined stop,0.1331739,6320,80,true,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1262385,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1252645,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.14857769999999998,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1308719,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1387788,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1136428,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1214256,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1277344,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.11987120000000001,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1114968,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1312628,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1196277,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1278362,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1341983,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.13202540000000001,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.12721949999999999,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1185438,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.12383369999999999,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1222435,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.11719360000000001,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1125516,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1304195,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1295581,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1261822,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1328781,6320,80,false,false,
+iso_r01N_s80,1WL_noniso,boscia_wl,1,Optimal (tree empty),0.1140848,6320,80,false,false,
+latin_10_100,NoWL,boscia,1,Time limit reached,300.442,0,100,true,false,
+latin_10_100,1WL,boscia_wl,1,Time limit reached,300.30338159999997,0,100,true,false,
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0054199,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0120812,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0135154,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.006809,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0119551,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0124927,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0111175,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0129327,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.005383,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0052159,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0056469,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0046211,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0042807,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0035723,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0037923,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0042038,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.00673,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0063202,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0051529,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0030937,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0030169,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0031776,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0064128,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0035169,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.003803,9800,0,false,true,wl
+latin_10_100,1WL_noniso,boscia_wl,1,Unknown,0.0047777,9800,0,false,true,wl
+latin_11_121,NoWL,boscia,1,Time limit reached,300.555,0,121,true,false,
+latin_11_121,1WL,boscia_wl,1,Time limit reached,300.7991727,0,121,true,false,
+latin_12_144,NoWL,boscia,1,Time limit reached,302.131,0,144,true,false,
+latin_12_144,1WL,boscia_wl,1,Time limit reached,302.1109185,0,144,true,false,
+latin_13_169,NoWL,boscia,1,Time limit reached,302.811,0,169,true,false,
+latin_13_169,1WL,boscia_wl,1,Time limit reached,302.8179179,0,169,true,false,
+latin_14_196,NoWL,boscia,1,Time limit reached,304.894,0,196,true,false,
+latin_14_196,1WL,boscia_wl,1,Time limit reached,303.9352626,0,196,true,false,
+latin_15_225,NoWL,boscia,1,Time limit reached,306.191,0,225,true,false,
+latin_15_225,1WL,boscia_wl,1,Time limit reached,305.4466225,0,225,true,false,
+latin_16_256,NoWL,boscia,1,Time limit reached,309.035,0,256,true,false,
+latin_16_256,1WL,boscia_wl,1,Time limit reached,308.7537012,0,256,true,false,
+latin_17_289,NoWL,boscia,1,Time limit reached,312.668,0,289,true,false,
+latin_17_289,1WL,boscia_wl,1,Time limit reached,312.63247920000003,0,289,true,false,
+latin_18_324,NoWL,boscia,1,Time limit reached,315.557,0,324,true,false,
+latin_18_324,1WL,boscia_wl,1,Time limit reached,314.3111225,0,324,true,false,
+latin_19_361,NoWL,boscia,1,Time limit reached,329.932,0,361,true,false,
+latin_19_361,1WL,boscia_wl,1,Time limit reached,327.31679560000003,0,361,true,false,
+latin_20_400,NoWL,boscia,1,Time limit reached,336.77,0,400,true,false,
+latin_20_400,1WL,boscia_wl,1,Time limit reached,355.2867228,0,400,true,false,
+latin_21_441,NoWL,boscia,1,Time limit reached,354.852,0,441,true,false,
+latin_21_441,1WL,boscia_wl,1,Time limit reached,357.4989088,0,441,true,false,
+latin_22_484,NoWL,boscia,1,Time limit reached,376.599,0,484,true,false,
+latin_22_484,1WL,boscia_wl,1,Time limit reached,340.52832099999995,0,484,true,false,
+latin_2_4,NoWL,boscia,1,Error,NaN,NaN,0,true,false,
+latin_2_4,1WL,boscia_wl,1,Error,NaN,NaN,0,true,false,
+latin_3_9,NoWL,boscia,1,User defined stop,0.171,0,9,true,false,
+latin_3_9,1WL,boscia_wl,1,User defined stop,0.1631789,0,9,true,false,
+latin_4_16,NoWL,boscia,1,User defined stop,13.65,0,16,true,false,
+latin_4_16,1WL,boscia_wl,1,User defined stop,3.2778913999999997,0,16,true,false,
+latin_5_25,NoWL,boscia,1,User defined stop,9.419,0,25,true,false,
+latin_5_25,1WL,boscia_wl,1,User defined stop,7.1697221,0,25,true,false,
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0026046,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0011775,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0009644,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0014531,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0009607,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0046632,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0018387,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0068049,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0086342,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0233391,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0149506,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0077506,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0031191,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0119021,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0225858,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0007303,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0006731,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.004157,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0007974,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0009086,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0044592,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0006224,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0011198,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0020111,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0011044,575,0,false,true,wl
+latin_5_25,1WL_noniso,boscia_wl,1,Unknown,0.0006658,575,0,false,true,wl
+latin_6_36,NoWL,boscia,1,User defined stop,63.663,0,36,true,false,
+latin_6_36,1WL,boscia_wl,1,User defined stop,71.7960047,0,36,true,false,
+latin_7_49,NoWL,boscia,1,User defined stop,254.169,0,49,true,false,
+latin_7_49,1WL,boscia_wl,1,Time limit reached,1359.3823937999998,0,49,true,false,
+latin_8_64,NoWL,boscia,1,Time limit reached,4007.107,0,64,true,false,
+latin_8_64,1WL,boscia_wl,1,Time limit reached,300.24425890000003,0,64,true,false,
+latin_9_81,NoWL,boscia,1,Time limit reached,300.265,0,81,true,false,
+latin_9_81,1WL,boscia_wl,1,Time limit reached,300.2967764,0,81,true,false,
+paley_power_9,NoWL,boscia,1,User defined stop,4.574,0,9,true,false,
+paley_power_9,1WL,boscia_wl,1,User defined stop,0.333798,0,9,true,false,
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,0.0208471,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,7.18e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,6.29e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,7.57e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,0.0001162,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,0.0001141,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,7.15e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,5.92e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,6.24e-5,72,0,false,true,wl
+paley_power_9,1WL_noniso,boscia_wl,1,Unknown,6.15e-5,72,0,false,true,wl
+paley_power_25,NoWL,boscia,1,User defined stop,4.797,0,25,true,false,
+paley_power_25,1WL,boscia_wl,1,User defined stop,4.3141606,0,25,true,false,
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.000416,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0005926,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0004983,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0004257,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003506,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003629,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003486,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003728,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003689,575,0,false,true,wl
+paley_power_25,1WL_noniso,boscia_wl,1,Unknown,0.0003495,575,0,false,true,wl
+paley_power_49,NoWL,boscia,1,User defined stop,106.945,0,49,true,false,
+paley_power_49,1WL,boscia_wl,1,User defined stop,95.23185289999999,0,49,true,false,
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.1057878,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0035647,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0061328,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0072792,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0091839,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0111012,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0123299,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.007772,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0092833,2303,0,false,true,wl
+paley_power_49,1WL_noniso,boscia_wl,1,Unknown,0.0053364,2303,0,false,true,wl
+paley_power_81,NoWL,boscia,1,Time limit reached,300.21,0,81,true,false,
+paley_power_81,1WL,boscia_wl,1,Time limit reached,300.417192,0,81,true,false,
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0415802,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0444955,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0339309,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0337223,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0061859,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0137819,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0154068,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.017735,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0131139,6399,0,false,true,wl
+paley_power_81,1WL_noniso,boscia_wl,1,Unknown,0.0092729,6399,0,false,true,wl
+paley_power_121,NoWL,boscia,1,Time limit reached,302.656,0,121,true,false,
+paley_power_121,1WL,boscia_wl,1,Time limit reached,301.82327649999996,0,121,true,false,
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0550608,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0309133,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0467757,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0102263,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0183922,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0200247,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0060072,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0057929,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.0063128,14399,0,false,true,wl
+paley_power_121,1WL_noniso,boscia_wl,1,Unknown,0.005481,14399,0,false,true,wl
+paley_power_169,NoWL,boscia,1,Time limit reached,305.361,0,169,true,false,
+paley_power_169,1WL,boscia_wl,1,Time limit reached,306.6838052,0,169,true,false,
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.1216017,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0917405,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.1118522,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.1002781,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0209526,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0776556,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0932359,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0211198,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.016531,28223,0,false,true,wl
+paley_power_169,1WL_noniso,boscia_wl,1,Unknown,0.0173685,28223,0,false,true,wl
+paley_power_289,NoWL,boscia,1,Time limit reached,320.495,0,289,true,false,
+paley_power_289,1WL,boscia_wl,1,Time limit reached,318.7053089,0,289,true,false,
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.0726894,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.0640937,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.0661088,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,5.4951476,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.1181271,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.1937669,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.1503597,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.059578,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.0525564,82943,0,false,true,wl
+paley_power_289,1WL_noniso,boscia_wl,1,Unknown,0.0739625,82943,0,false,true,wl
+paley_power_361,NoWL,boscia,1,Time limit reached,340.922,0,361,true,false,
+paley_power_361,1WL,boscia_wl,1,Time limit reached,341.2179504,0,361,true,false,
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.1356738,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.166867,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.0963063,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.127494,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.3786477,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.083708,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.1007327,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.0986554,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.1078341,129599,0,false,true,wl
+paley_power_361,1WL_noniso,boscia_wl,1,Unknown,0.0855756,129599,0,false,true,wl
+paley_prime_13,NoWL,boscia,1,User defined stop,0.381,0,13,true,false,
+paley_prime_13,1WL,boscia_wl,1,User defined stop,0.33810900000000005,0,13,true,false,
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0002444,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0002342,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001581,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001647,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001612,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001575,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.000154,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001702,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001593,143,0,false,true,wl
+paley_prime_13,1WL_noniso,boscia_wl,1,Unknown,0.0001683,143,0,false,true,wl
+paley_prime_29,NoWL,boscia,1,User defined stop,13.246,0,29,true,false,
+paley_prime_29,1WL,boscia_wl,1,User defined stop,13.482463399999999,0,29,true,false,
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0008013,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.000695,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0005959,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0006114,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0005979,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0005646,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0005477,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0011445,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0006645,783,0,false,true,wl
+paley_prime_29,1WL_noniso,boscia_wl,1,Unknown,0.0005943,783,0,false,true,wl
+paley_prime_53,NoWL,boscia,1,User defined stop,115.082,0,53,true,false,
+paley_prime_53,1WL,boscia_wl,1,User defined stop,116.72521900000001,0,53,true,false,
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0017296,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0025102,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0019262,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0016972,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0020519,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0017707,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0016814,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.001717,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0017119,2703,0,false,true,wl
+paley_prime_53,1WL_noniso,boscia_wl,1,Unknown,0.0018167,2703,0,false,true,wl
+paley_prime_73,NoWL,boscia,1,User defined stop,219.951,0,73,true,false,
+paley_prime_73,1WL,boscia_wl,1,User defined stop,223.7215143,0,73,true,false,
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0274405,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0265372,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.025914,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0174236,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0169289,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0190295,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0326877,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.031412,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0027951,5183,0,false,true,wl
+paley_prime_73,1WL_noniso,boscia_wl,1,Unknown,0.0076282,5183,0,false,true,wl
+paley_prime_97,NoWL,boscia,1,Time limit reached,300.681,0,97,true,false,
+paley_prime_97,1WL,boscia_wl,1,Time limit reached,300.6462177,0,97,true,false,
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0318163,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0569258,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0307834,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0567928,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0588011,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0053986,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0145063,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0245403,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0182905,9215,0,false,true,wl
+paley_prime_97,1WL_noniso,boscia_wl,1,Unknown,0.0049813,9215,0,false,true,wl
+paley_prime_197,NoWL,boscia,1,Time limit reached,307.987,0,197,true,false,
+paley_prime_197,1WL,boscia_wl,1,Time limit reached,307.3411871,0,197,true,false,
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.1150029,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0872569,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.1316594,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.1405724,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0364203,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0548289,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0781673,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.040183,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0475568,38415,0,false,true,wl
+paley_prime_197,1WL_noniso,boscia_wl,1,Unknown,0.0584395,38415,0,false,true,wl
+paley_prime_337,NoWL,boscia,1,Time limit reached,327.456,0,337,true,false,
+paley_prime_337,1WL,boscia_wl,1,Time limit reached,328.7047638,0,337,true,false,
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.4028312,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.1323149,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.1581444,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.0856638,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,5.4825168,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.2264101,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.372141,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.1568153,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.1043983,112895,0,false,true,wl
+paley_prime_337,1WL_noniso,boscia_wl,1,Unknown,0.0847589,112895,0,false,true,wl
+sts_19_57,NoWL,boscia,1,Time limit reached,300.225,0,57,true,false,
+sts_19_57,1WL,boscia_wl,1,Time limit reached,300.1714972,0,57,true,false,
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0214698,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0176522,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0191602,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0091654,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.01668,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.021278,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0149042,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0120985,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0022451,3192,0,false,true,wl
+sts_19_57,1WL_noniso,boscia_wl,1,Unknown,0.0027086,3192,0,false,true,wl
+sts_25_100,NoWL,boscia,1,Time limit reached,301.257,0,100,true,false,
+sts_25_100,1WL,boscia_wl,1,Time limit reached,301.07355049999995,0,100,true,false,
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0405494,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0386299,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0412949,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0443733,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0817679,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0092042,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0269895,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0429046,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0165563,9900,0,false,true,wl
+sts_25_100,1WL_noniso,boscia_wl,1,Unknown,0.0079453,9900,0,false,true,wl
+sts_31_155,NoWL,boscia,1,Time limit reached,311.904,0,155,true,false,
+sts_31_155,1WL,boscia_wl,1,Time limit reached,304.51264630000003,0,155,true,false,
+sts_37_222,NoWL,boscia,1,Time limit reached,310.38,0,222,true,false,
+sts_37_222,1WL,boscia_wl,1,Time limit reached,309.21384869999997,0,222,true,false,
+sts_43_301,NoWL,boscia,1,Time limit reached,317.251,0,301,true,false,
+sts_43_301,1WL,boscia_wl,1,Time limit reached,311.0729777,0,301,true,false,
+sts_49_392,NoWL,boscia,1,Time limit reached,329.884,0,392,true,false,
+sts_49_392,1WL,boscia_wl,1,Time limit reached,338.2008198,0,392,true,false,
+sts_55_495,NoWL,boscia,1,Time limit reached,354.319,0,495,true,false,
+sts_55_495,1WL,boscia_wl,1,Time limit reached,375.3538025,0,495,true,false,
+sts_61_610,NoWL,boscia,1,Time limit reached,412.277,0,610,true,false,
+sts_61_610,1WL,boscia_wl,1,Time limit reached,411.3464881,0,610,true,false,
+sts_67_737,NoWL,boscia,1,Time limit reached,463.295,0,737,true,false,
+sts_67_737,1WL,boscia_wl,1,Time limit reached,418.23530569999997,0,737,true,false,
+usr_1_29_1,NoWL,boscia,1,Time limit reached,302.498,0,29,true,false,
+usr_1_29_1,1WL,boscia_wl,1,Time limit reached,300.2879503,0,29,true,false,
+usr_1_29_2,NoWL,boscia,1,Time limit reached,300.101,0,29,true,false,
+usr_1_29_2,1WL,boscia_wl,1,Time limit reached,300.0535489,0,29,true,false,
+usr_2_58_1,NoWL,boscia,1,Time limit reached,300.168,0,58,true,false,
+usr_2_58_1,1WL,boscia_wl,1,Time limit reached,300.1739759,0,58,true,false,
+usr_2_58_2,NoWL,boscia,1,Time limit reached,6460.397,0,58,true,false,
+usr_2_58_2,1WL,boscia_wl,1,Time limit reached,300.0701024,0,58,true,false,
+usr_3_87_1,NoWL,boscia,1,Time limit reached,301.075,0,87,true,false,
+usr_3_87_1,1WL,boscia_wl,1,Time limit reached,300.83697959999995,0,87,true,false,
+usr_3_87_2,NoWL,boscia,1,Time limit reached,300.769,0,87,true,false,
+usr_3_87_2,1WL,boscia_wl,1,Time limit reached,302.7307371,0,87,true,false,
+usr_4_116_1,NoWL,boscia,1,Time limit reached,302.342,0,116,true,false,
+usr_4_116_1,1WL,boscia_wl,1,Time limit reached,302.6431194,0,116,true,false,
+usr_4_116_2,NoWL,boscia,1,Time limit reached,302.415,0,116,true,false,
+usr_4_116_2,1WL,boscia_wl,1,Time limit reached,302.0872379,0,116,true,false,
+usr_7_203_1,NoWL,boscia,1,Time limit reached,310.638,0,203,true,false,
+usr_7_203_1,1WL,boscia_wl,1,Time limit reached,312.46805759999995,0,203,true,false,
+usr_7_203_2,NoWL,boscia,1,Time limit reached,310.119,0,203,true,false,
+usr_7_203_2,1WL,boscia_wl,1,Time limit reached,308.9410731,0,203,true,false,
+usr_14_406_1,NoWL,boscia,1,Time limit reached,354.97,0,406,true,false,
+usr_14_406_1,1WL,boscia_wl,1,Time limit reached,362.7299251,0,406,true,false,
+usr_14_406_2,NoWL,boscia,1,Time limit reached,355.152,0,406,true,false,
+usr_14_406_2,1WL,boscia_wl,1,Time limit reached,353.6371667,0,406,true,false,

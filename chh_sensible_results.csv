@@ -1,0 +1,5 @@
+instance,solver_name,solver,seed,status,total_time,fixed_to_zero,n,iso_generate,early_stop,early_reason
+CHH_cc_1_1_22_1,1WL,boscia_wl,1,User defined stop,8.0120256,0,22,true,false,
+CHH_cc_1_1_22_1,2WL,boscia_wl2,1,User defined stop,1.1245533,294,22,true,false,
+CHH_cc_2_1_44_1,1WL,boscia_wl,1,User defined stop,132.7754242,1176,44,true,false,
+CHH_cc_2_1_44_1,2WL,boscia_wl2,1,User defined stop,64.2187725,1556,44,true,false,

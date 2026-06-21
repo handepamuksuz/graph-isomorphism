@@ -3,7 +3,7 @@ using Statistics
 using Random
 using Printf
 using Hungarian
-using NautyGraphs
+#using NautyGraphs
 
 include("utilities.jl")
 include("spectral.jl")
@@ -112,8 +112,15 @@ function bench(
 
         use_clique = "clique" in solver_parts
 
-        use_wl = "wl" in solver_parts
-
+        use_wl2 = "wl2" in solver_parts
+        use_wl = ("wl" in solver_parts) || use_wl2 
+        if use_wl2
+            wl_version = 2
+        else
+            wl_version = 1
+        end
+        @show wl_version
+  
         use_OBBT = "OBBT" in solver_parts
 
         use_walk_sig = ("walk" in solver_parts) || ("walksig" in solver_parts)
@@ -145,6 +152,7 @@ function bench(
         use_heat_laplacian_formulation = "heat" in solver_parts
 
         iso_generate ? println("Iso problem...") : println("Non-iso problem...")
+        println("🔍 Passing to boscia_run: use_wl=$use_wl, wl_version=$wl_version")
         status, solving_time, fixing_res, result = boscia_run(
             A1,
             A2;
@@ -155,6 +163,8 @@ function bench(
             favor_right = favor_right,
             iso_generate = iso_generate,
             use_OBBT = use_OBBT,
+            use_wl = use_wl,
+            wl_version = wl_version,
             use_clique = use_clique,
             use_star = use_star,
             use_walk_sig = use_walk_sig,
@@ -163,8 +173,7 @@ function bench(
             use_k_particle_quantum = use_k_particle_quantum,
             use_exp_formulation = use_exp_formulation,
             use_uni_exp_formulation = use_uni_exp_formulation,
-            use_heat_laplacian_formulation = use_heat_laplacian_formulation,
-            use_wl = use_wl,
+            use_heat_laplacian_formulation = use_heat_laplacian_formulation
         )
         if status == "OPTIMAL"
             issolved = true

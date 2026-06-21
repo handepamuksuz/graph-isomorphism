@@ -75,6 +75,7 @@ function boscia_run(
     use_clique = false,
     use_star = false,
     use_wl = false, 
+    wl_version::Int= 1, 
     use_walk_sig = false,
     use_classical_exp_walk = false,
     use_quantum = false,
@@ -121,7 +122,7 @@ function boscia_run(
     end
 
 
-    blmo_precompile = CLO.BirkhoffLMO(n, collect(1:(n^2)))
+    blmo_precompile = CLO.BirkhoffLMO(3, collect(1:9))
     k = Int(round(sqrt(n)))
     swap_heu = Boscia.Heuristic(
         (tree, blmo, x) -> random_k_neighbor_matrix(tree, blmo, x, k, false),
@@ -156,11 +157,11 @@ function boscia_run(
 
     if !is_graph_matching
         @info "Activating callback..."
-        settings_pre.branch_and_bound[:bnb_callback] = build_tree_callback()
-        settings_pre.branch_and_bound[:branch_callback] = build_branch_callback()
+        #settings_pre.branch_and_bound[:bnb_callback] = build_tree_callback()
+        #settings_pre.branch_and_bound[:branch_callback] = build_branch_callback()
     end
 
-    settings_pre.branch_and_bound[:time_limit] = 10
+    settings_pre.branch_and_bound[:time_limit] = 3
 
     use_depth ?
     settings_pre.branch_and_bound[:traverse_strategy] =
@@ -205,7 +206,18 @@ function boscia_run(
         f, grad! = build_function_gradient(A, B, n)
     end
 
-    _, _, _ = Boscia.solve(f, grad!, blmo_precompile, settings = settings_pre)
+    ##changed
+    #_, _, _ = Boscia.solve(f, grad!, blmo_precompile, settings = settings_pre)
+    n_pre = size(A, 1)
+    if n_pre > 6
+        A_pre = sparse(Float64[0 1 1; 1 0 1; 1 1 0])
+        B_pre = sparse(Float64[0 1 1; 1 0 1; 1 1 0])
+        f_pre, grad_pre! = build_function_gradient(A_pre, B_pre, 3)
+        blmo_pre2 = CLO.BirkhoffLMO(3, collect(1:9))
+        _, _, _ = Boscia.solve(f_pre, grad_pre!, blmo_pre2, settings = settings_pre)
+    else
+        _, _, _ = Boscia.solve(f, grad!, blmo_precompile, settings = settings_pre)
+    end
 
     settings = Boscia.create_default_settings()
     settings.branch_and_bound[:verbose] = verbose
@@ -227,6 +239,7 @@ function boscia_run(
         n;
         use_clique = use_clique,
         use_wl = use_wl, 
+        wl_version = wl_version,
         use_star = use_star,
         use_OBBT = use_OBBT,
         use_walk_sig = use_walk_sig,
@@ -239,22 +252,37 @@ function boscia_run(
         time_limit = time_limit,
     )
 
+    # Safe property accessor helper
+    safe_time(struct_obj, field) = hasproperty(struct_obj, field) ? getproperty(struct_obj, field) : 0.0
+
+    t_res = preprocessing_results.times
+    preprocessing_time_elapsed =
+        safe_time(t_res, :clique) +
+        safe_time(t_res, :wl) +   
+        safe_time(t_res, :star) +
+        safe_time(t_res, :obbt) +
+        safe_time(t_res, :walk_sig) +
+        safe_time(t_res, :classical_exp) +
+        safe_time(t_res, :quantum) +
+        safe_time(t_res, :k_particle)
+
+    """
     preprocessing_time_elapsed =
         preprocessing_results.times.clique +
-        preprocessing_results.times.wl +   
+      #  preprocessing_results.times.wl +   
         preprocessing_results.times.star +
         preprocessing_results.times.obbt +
         preprocessing_results.times.walk_sig +
         preprocessing_results.times.classical_exp +
         preprocessing_results.times.quantum +
         preprocessing_results.times.k_particle
-
+    """
     if preprocessing_results.early_stop && !iso_generate && !is_graph_matching
         @info "Not isomorphic ($(preprocessing_results.early_reason) preprocessing)"
         return "OPTIMAL", preprocessing_time_elapsed, preprocessing_results, nothing
     end
 
-    time_left = max(1, Int(round(time_limit - preprocessing_time_elapsed)))
+    time_left = isinf(time_limit) ? typemax(Int) : max(1, Int(round(time_limit - preprocessing_time_elapsed)))
     settings.branch_and_bound[:time_limit] = time_left
     settings.heuristic[:custom_heuristics] = [swap_heu]
     settings.frank_wolfe[:variant] = variant
@@ -275,7 +303,7 @@ function boscia_run(
     if occursin("Optimal", status)
         # Boscia found an optimal solution (isomorphism found)
         status = "OPTIMAL"
-        if !is_graph_matching
+        if !is_graph_matching && iso_generate
             @assert A ≈ X' * B * X
         end
     elseif occursin("Time", status)
