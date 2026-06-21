@@ -4,7 +4,7 @@ using .GI_benchmark, DataFrames, CSV
 
 function run_chh_sensible()
     TIME_LIMIT = 3600.0   # 1 hour per run
-    OUTPUT_CSV = "chh_sensible_results.csv"
+    OUTPUT_CSV = "chh_results.csv"
 
     # Load already completed runs to skip duplicates
     completed = Set()
