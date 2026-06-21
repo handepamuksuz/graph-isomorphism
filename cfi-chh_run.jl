@@ -3,7 +3,7 @@ include("src/GI_benchmark.jl")
 using .GI_benchmark, DataFrames, CSV
 
 function run_targeted()
-    OUTPUT_CSV = "targeted_overnight.csv"
+    OUTPUT_CSV = "cfi.csv"
 
     # Load completed runs from this specific output file (to avoid re-runs within this batch)
     completed = Set()
@@ -45,9 +45,9 @@ function run_targeted()
     CHH_TIME = 1800.0
 
     # -------------------------------------------------------------
-    # 3. Other "interesting" instances (10 minutes each)
+    # 3. Other 
     #    - exact_092: 1WL fixed 99.8% but timed out at 328s. Run 1WL again at 600s.
-    #    - Large Paley: 1WL fixed 0%, but maybe 2WL fixes something.
+    #    - Large Paley: 1WL fixed 0%, trying 2WL fixes something.
     #    - STS/USR: 1WL fixed 0%, test 2WL.
     # -------------------------------------------------------------
     other_instances = [
